@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Show</title>
+    <link rel="stylesheet" href="static/css/app.css">
+</head>
+
+<body>
+    <div class="slider">
+        <ul class="slider__ul">
+            <li class="slider__li slider__li_active"><img class="slider__img" src="static/img/slider-1.png" alt="#">
+            </li>
+            <li class="slider__li"><img class="slider__img" src="static/img/slider-2.png" alt="#"></li>
+            <li class="slider__li"><img class="slider__img" src="static/img/slider-3.png" alt="#"></li>
+        </ul>
+        <div class="slider__buttons-block">
+            <a href="#" class="slider__button slider__button_prev" data-target="prev">prev</a>
+            <a href="#" class="slider__button slider__button_next" data-target="next">next</a>
+        </div>
+        <div class="slider__pages-block">
+            <ul class="slider__pages-ul">
+                <li class="slider__pages-li slider__pages-li_active" data-target="0"></li>
+                <li class="slider__pages-li" data-target="1"></li>
+                <li class="slider__pages-li" data-target="2"></li>
+
+            </ul>
+        </div>
+    </div>
+    <script src="static/js/slider.js"></script>
+    <script src="static/js/app.js"></script>
+</body>
+
+</html>
